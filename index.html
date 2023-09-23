@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+
+</head>
+<div>
+<!-----------Header---------- --->  
+<div id="header">
+    <nav>
+            <img src="./assert/Logoname4.png" alt="The Logo" class="img_logo">
+            <img src="./assert/Logoname4.1sc.png" alt="The Logo" class="img_logo1">
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            <div class="list">
+                <ul id="sidemenu">
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contack">Connect</a></li>
+
+                
+            </ul>
+           <!-- <i class="fa-solid fa-bars"></i> -->
+            </div>
+    </nav>
+    <div class="container">
+       <div class="header-text">
+            <h4><span>----------</span> Who is she?</h4>
+            <h1>I'm <span>Swarnali Roy</span></h1>
+            <p>Coding her way through the digital realm, she is the cache queen of front-end development. Meet the architect of seamless user experiences, the wizard behind pixel-perfect designs, and the sorceress of responsive layouts. She crafts web magic that leaves visitors spellbound and browsers hungry for more. She is the alchemist who transforms code into captivating visuals, and with every keystroke, she brings websites to life.
+            </p>
+       </div>
+    </div>
+</div>
+<!-----------About---------- --->
+<div id="about">
+    <div class="container-about">
+        <div class="row">
+            <div class="left-side ">
+                <img src="./assert/Down_img4.png" alt="">
+            </div>
+
+            <div class="right-side">
+                <h1 class="sub-title">About Me</h1>
+                <p>Highly motivated and adaptable professional with overall 2 years of experience with expertise in health care domain, as a front end developer worked with HTML ,CSS ,JS ,React JS and Pega. Experienced in agile methodology, process development, delivering clean, error-free, reliable code with release management, code debugging and knowledge in development tracking tools like JIRA. I bring a unique blend of technical expertise and a passion for creating exceptional web experiences. Seeking a challenging role as a Front End Web Developer.</p>
+                <div class="tab-title ">
+                    <p  class="tab-link active-title" onclick="opentab('skills')">Skills</p>
+                    <p  class="tab-link" onclick="opentab('experience')">Experience</p>
+                    <p  class="tab-link" onclick="opentab('education')">Education</p>
+                </div>
+            
+            
+                <div class="tab-content active-tab" id="skilld">
+                    
+                    <div class="parent-skill">
+                            <span  class="skill-img"><i style="color:rgb(246, 116, 69);" class="fa-brands fa-html5"></i> </span>
+                            <span class="skill-img"><i class="fa-brands fa-css3-alt" style="color:rgb(64, 87, 232);"></i></span>
+                            <span class="skill-img"><i class="fa-brands fa-js"  style="color:yellow;" ></i></span>
+                            <span class="skill-img"><i class="fa-brands fa-react"  style="color:rgb(30, 52, 196);"></i></span>
+                            <span  style="color:rgb(169, 177, 232);" class="skill-img">Pega-PRPC </span>
+                    </div>
+                        
+                </div>
+
+                <div class="tab-content" id="experience">
+                    <ul>
+                        <li><span><h1>Infosys</h1><br>2021-June to 2023-June<br></span></li>
+                        <li><span><h5>
+                            •	Strong understanding of responsive web design principles for seamless user experiences.<br>
+                            •	Worked with HTML and CSS in Pega to create and improvise UIUX <br>
+                            •	Extensively utilized CSS to customize the appearance of Pega applications to modify the layout, typography, colors, and other <br>visual aspects of the user interface. <br>
+                            •	Involved in various phase of lifecycle of software development life cycle(SDLC) <br>
+                            •	Coordinated quality testing with assurance team and partnered on resolving defects
+                            •	As a Pega developer, I worked on developing responsive layouts that adapt to different devices and screen sizes.
+
+                            </h5><br></span></li>
+                    </ul>
+                </div>
+            
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span><h1>Rcc Institution Of Information Technology</h1><br>B-Tech (2016-June to 2020-July) </span></li>
+                        <li><span><h1>Delhi Public School</h1><br>10+2 (2015-June to 2016-June)</span></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+<!-----------Projects---------- --->
+
+<div id="portfolio">
+    <div class="container-work">
+        <h1  class="sub-title">My Work</h1>
+        <div class="work_list">
+            <div class="work">
+                <img class="work-img work-img-calculator"  src="./assert/CalculatorShort1.png" alt="calculator ">
+                <div class="layer">
+                    <h3>Calculator</h3>
+                    <div class="tecused">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="work-img  work-img-login"   src="./assert/LoginScreen3-main.png" alt="calculator">
+                <div class="layer">
+                    <h3>Login</h3>
+                    <div class="tecused">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="work-img  work-img-amazoncol"   src="./assert/AmazonCol.png" alt="calculator">
+                <div class="layer">
+                    <h3>AmazonClone</h3>
+                    <div class="tecused">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+          
+
+        </div>
+        <!-- <a href="#" class="btn" >See More</a> -->
+        
+           
+    </div>
+</div>
+    
+<!-----------Contacks---------- --->
+<div id="contack">
+    <div class="container-work">
+        <h1 class="sub-title">Lets Connet</h1>
+        <img id="letconnetimg"  src="./assert/Contack_shakehand3.png" alt="">
+       
+        <div class="row rowsmall-sc">
+            <div class="left-contack">
+
+                
+                <div class="personal-info">
+                    <p><i class="fa-regular fa-envelope"></i>swarnali.roy1411@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8017816964</p>
+                </div>
+                
+                <div class="social-media">
+                    <a href="https://www.instagram.com/swarnali2890/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/swarnali-roy-695781244/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/RoySwarn14"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="download"><a href="./assert/Resume.docx"  download class="con-btn" >Download CV</a></div>
+                
+            </div>
+            
+            <div class="right-contack">
+                <p><i class="fa-solid fa-message"></i></p>
+
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name"required>
+                    <input type="email;" name="Mail" placeholder="Email" required>
+                    <input type="number" name="Phone Number" placeholder="Phone Number">
+                    <textarea name="Message" placeholder="Message"></textarea>
+                    <br>
+                    <button type="submit" class="con-btn">Submit</button>
+
+                 </form>
+                <span id="sucess-message"></span>
+                 
+                 
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+         <footer><p>   Made With <i class="fa-solid fa-heart"></i> By Swarnali </p></footer>
+    </div>
+</div>
+    
+
+
+
+</body>
+
+</html>
