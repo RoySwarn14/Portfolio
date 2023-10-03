@@ -12,9 +12,9 @@ function opentab(tabname){
     for(tabcontent of tabcontents ){
         tabcontent.classList.remove("active-tab")
     }
-    
+    for(tabtitle of tabtitles){
     event.currentTarget.classList.add("active-title")
-    document.getElementById(tabname).classList.add("active-tab")
+    document.getElementById(tabname).classList.add("active-tab")}
     //event.currentTarget.classList.add("active-tab")
 }
 
@@ -41,7 +41,7 @@ form.addEventListener('submit', e =>
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {sucessmessage.innerHTML="Message sent sucessfully"
 
-    setTimeout(function(){sucessmessage.innerHTML =""},3000)
+    setTimeout(function(){sucessmessage.innerHTML =""},1000)
     form.reset();
 })
     .catch(error => console.error('Error!', error.message))
